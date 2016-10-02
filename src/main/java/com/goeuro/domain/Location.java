@@ -24,6 +24,10 @@ public class Location {
     private String distance;
     private String type;
 
+    public Location(){
+
+    }
+
     private Location(Builder builder) {
         this.id = builder.id;
         this.key = builder.key;

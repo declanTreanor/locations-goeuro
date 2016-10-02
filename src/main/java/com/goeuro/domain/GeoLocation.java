@@ -15,6 +15,10 @@ public class GeoLocation {
         this.longitude = builder.longitude;
     }
 
+    public GeoLocation() {
+
+    }
+
     public static Builder newGeoLocation() {
         return new Builder();
     }
